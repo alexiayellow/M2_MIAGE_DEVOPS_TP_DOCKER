@@ -1,4 +1,4 @@
-# TP_INT_CONT_AB_M2_MIAGE_IPM
+# M2_MIAGE_DEVOPS_TP_DOCKER
 
 Exercice : Manipulation de base des conteneurs
 Étapes :
@@ -117,3 +117,19 @@ Harold Parpex 3
 Université Toulouse Capitole
 6. Supprimez le conteneur :
  docker rm mon_nginx
+
+
+
+
+Exercice 5 et 6 
+
+Application Flask configuree avec pymongo et ecoute sur toutes les interfaces sur le port 5000.
+
+Ajout des dependances flask et pymongo dans requirements.txt.
+
+Creation du Dockerfile pour l application Flask.
+
+Redaction du docker-compose.yml pour orchestrer les services web et mongo 
+
+Ajout du .gitignore pour exclure les caches, les environnements virtuels et les donnees
+
