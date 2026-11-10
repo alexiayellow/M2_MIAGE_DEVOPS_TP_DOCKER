@@ -7,6 +7,7 @@ app = Flask(__name__)
 client = MongoClient("mongodb://mongo:27017/")
 database = client["ex5Flask"]
 
+
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
